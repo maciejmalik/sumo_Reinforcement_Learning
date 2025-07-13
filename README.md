@@ -55,5 +55,5 @@ The program includes a custom-built interface allowing the user to:
 - Matplotlib
 - NumPy / Pandas
 
-![Sumo](Sumo.png)
+![Sumo](Sumo_example.png)
 
