@@ -55,19 +55,3 @@ The program includes a custom-built interface allowing the user to:
 - Matplotlib
 - NumPy / Pandas
 
----
-
-## 👥 Authors
-
-Developed as a **group university project** by students at [Your University Name].  
-We aimed to bridge real-world traffic data with intelligent traffic control systems through applied reinforcement learning.
-
----
-
-## 📷 Example Visualizations
-
-You can add screenshots here, for example:
-
-```markdown
-![Intersection Simulation in SUMO](images/intersection.png)
-![Training Progress GUI](images/gui_overview.png)
