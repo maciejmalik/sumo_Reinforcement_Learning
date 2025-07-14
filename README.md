@@ -55,5 +55,36 @@ The program includes a custom-built interface allowing the user to:
 - Matplotlib
 - NumPy / Pandas
 
+
+1. Starting the Interface
+After launching the program, the main interface appears.
+Here, we can change simulation parameters such as signal phase durations and total simulation time.
+![Start](Start_interface.png)
+
+2. Neural Network Parameters
+The application allows us to modify key parameters of the neural network, such as the size of the hidden layer, learning rate, and more.
+![NN](Parameters.png)
+
+3. Running the Simulation
+By clicking the appropriate button, we can launch a visible simulation in the SUMO environment and observe the traffic flow in real time.
 ![Sumo](Sumo_example.png)
 
+4. Baseline Results (Before Training)
+Below is an example of simulation results using the default signal timings (without training).
+![Sim](Results_without_training.png)
+
+5. By clicking the "Start Training" button, we begin the training process of our DQN agent.
+After completion, the tool automatically generates visualizations of the training progress and performance metrics.
+![Sumo](Plots.png)
+
+6. Results After Training
+Once the training is complete, we can observe a significant reduction in average vehicle waiting time.
+This indicates that the model successfully optimized the signal timings.
+(Note: The percentage improvement calculation isn't working well.)
+![Sumo](After_training.png)
+
+7. Viewing and Managing Saved Results
+All saved training results are listed, including the simulation hour and the best-found signal phase durations.
+![Sumo](Saved_results.png)
+
+You can now select different hours of the day and repeat the training process to discover the optimal signal timing for each time window.
